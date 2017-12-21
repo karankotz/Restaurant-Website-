@@ -1,0 +1,163 @@
+
+p.rate-heading
+{
+font-size:20px;
+}
+.rate-pos{
+position:absolute;
+float:left;
+padding-left:100px;
+padding-top:10px;
+}
+.rating {
+    float:left;
+    width:160px;
+}
+.rating span {
+ float:right;
+ position:relative; 
+ }
+.rating span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.rating span label 
+{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+	background: url(../images/stars2.png);  
+    opacity:0.7;	
+    font-size:30px;
+    margin-right:2px;
+    line-height:30px;
+    border-radius:50%;
+}
+.rating span:hover ~ span label,
+.rating span:hover label,
+.rating span.checked label,
+.rating span.checked ~ span label
+ {
+    background:#F90;
+    color:#FFF;
+	background: url(../images/stars5.png);
+}
+
+
+
+.rating1 {
+    float:left;
+    width:160px;
+}
+.rating1 span {
+ float:right;
+ position:relative; 
+ }
+.rating1 span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.rating1 span label 
+{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+	background: url(../images/stars2.PNG);  
+    opacity:0.7;	
+    font-size:30px;
+    margin-right:2px;
+    line-height:30px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.rating1 span:hover ~ span label,
+.rating1 span:hover label,
+.rating1 span.checked label,
+.rating1 span.checked ~ span label
+ {
+    background:#F90;
+    color:#FFF;
+	background: url(../images/stars5.png);
+}
+
+
+.rating2 {
+    float:left;
+    width:160px;
+}
+.rating2 span {
+ float:right;
+ position:relative; 
+ }
+.rating2 span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.rating2 span label 
+{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+	background: url(../images/stars2.PNG);  
+    opacity:0.7;	
+    font-size:30px;
+    margin-right:2px;
+    line-height:30px;
+    border-radius:50%;
+}
+.rating2 span:hover ~ span label,
+.rating2 span:hover label,
+.rating2 span.checked label,
+.rating2 span.checked ~ span label
+ {
+    background:#F90;
+    color:#FFF;
+	background: url(../images/stars5.png);
+}
+
+
+.rating3 {
+    float:left;
+    width:160px;
+}
+.rating3 span {
+ float:right;
+ position:relative; 
+ }
+.rating3 span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.rating3 span label 
+{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+	background: url(../images/stars2.PNG);  
+    opacity:0.7;	
+    font-size:30px;
+    margin-right:2px;
+    line-height:30px;
+    border-radius:50%;
+}
+.rating3 span:hover ~ span label,
+.rating3 span:hover label,
+.rating3 span.checked label,
+.rating3 span.checked ~ span label
+ {
+    background:#F90;
+    color:#FFF;
+	background: url(../images/stars5.png);
+}
